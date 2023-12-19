@@ -1,0 +1,7 @@
+@media max-width {
+    .pic img{
+        max-height: 100px;
+        width: auto;
+    }
+    
+}

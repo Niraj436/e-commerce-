@@ -1,0 +1,47 @@
+@media (max-width:538px) {
+    .search div{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+    }
+    .search div button{
+        width: 100%;
+
+    }
+    .right-intro h2{
+        font-size: 30px;
+
+    }
+    .cointainer2 img{
+        width: 100%;
+    }
+    .signup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .signup input{
+        width: 50%;
+    }
+    .signup button{
+        width: 25%;
+        height: 40px;
+
+    }
+    .home{
+        display: flex;
+        justify-content: end;
+    }
+    .signup button{
+        padding: 0;
+        width: 50%;
+    }
+    .signup input{
+        width: 100%;
+    }
+    
+    
+}

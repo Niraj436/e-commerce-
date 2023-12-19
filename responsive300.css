@@ -1,0 +1,68 @@
+@media (max-width:300px) {
+    .left-intro{
+        display: none;
+        width: 100%;
+        top:100%;
+        left: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 5;
+        margin-top: -72px;
+    }
+    .intro button{
+        display: block;
+        height: 40px;
+        align-items: center;
+       
+    }
+    .intro button:focus-within+.left-intro{
+        display: block;
+        position: relative;
+    }
+    .menu h3{
+        font-size: 16px;
+    }
+    .menu span{
+        font-size: 20px
+    }
+    .cointainer3{
+        width: 100%;
+        /* display:flex;
+        flex-direction: column;
+         */
+    }
+    .cointainer3 h1{
+        padding-bottom:50px ;
+    }
+   
+    .pic div{
+        width: 230px;
+        /* display: flex;
+        flex-wrap: wrap; */
+        /* margin: auto; */
+    }
+   .pic img{
+    width: 200px;
+    height: 200px;
+    
+    padding: 0px 0px;
+   }
+    
+    .pic span,.pic del{
+        font-size:15px;
+
+    }
+    .pic button{
+        transform: translate(-100%);
+        padding: 0;
+        width: 40px;
+        
+    }
+    .signup button{
+        padding: 0;
+        width: 50%;
+    }
+    .signup input{
+        width: 100%;
+    }
+}

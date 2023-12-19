@@ -1,0 +1,87 @@
+@media screen and (max-width:280px) {
+    .fixed{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: end;
+
+    
+    }
+    .search input{
+        height:50px;
+        width: 100%;
+    }
+    .searchBtn{
+        margin:0;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* display: block; */
+        flex-direction: column;
+        margin-top: 0px;
+        width: 100vw
+    }
+    .menu h3{
+        
+    }
+    .menu div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+              
+    }
+    .menu div li a{
+        padding: 0;
+        
+    }
+    .intro{
+        display:flex;
+        flex-direction: column;
+        
+      
+    }
+    .left-intro{
+        display: none;
+        width: 100%;
+        top:100%;
+        left: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 5;
+        margin-top: -72px;
+    }
+    .intro button{
+        display: block;
+        height: 40px;
+        align-items: center;
+       
+    }
+    .intro button:hover+.left-intro{
+        display: block;
+    }
+    .right-intro{
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+      
+    }
+    .right-intro div h2{
+        font-size: 30px;
+    }
+    .cointainer2{
+        flex-direction: column;
+    }
+
+    }
+    
